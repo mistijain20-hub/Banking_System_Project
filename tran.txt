@@ -1,0 +1,2 @@
+2026-03-15 22:29:56.927844 - Deposited amount: 15
+Withdraw amount: 100

@@ -1,0 +1,27 @@
+1.  Validation check-- whatsapp
+2.  text to ascii art  (designed program) use file handling
+    eg = Thank u for visiting our bank , Welcome
+3.  Maintain Transaction history +
+
+
+Some Validations for Now: 
+
+Withdraw Rules
+1. Amount must be positive 
+2. Amount must be ≤ balance
+3. Input Amount must be numeric
+
+Deposit Rules
+1. Amount must be positive
+2. Amount must be numeric
+
+Transaction Rules 
+1. Only show last N transactions (e.g., 10)
+2. Do not show history if no transactions exist
+3. You must show date & time of each transaction logs
+
+
+
+
+--Future Ideas--
+create an html file for showing passbooks
