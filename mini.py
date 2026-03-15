@@ -10,8 +10,8 @@ def show_menu():
     print("press 1 for checking balance")
     print("press 2 for depositing money")
     print("press 3 for withdrawing money")
-    print("press 5 for Exit")
     print("press 4 for Show Passbook")
+    print("press 5 for Exit")
 
 def get_money():
     global balance
