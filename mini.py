@@ -2,7 +2,7 @@ import os
 import art
 from datetime import datetime
 balance = 500000
-#history=[]
+
 
 print(art.welcome)
 
@@ -32,7 +32,6 @@ def deposite_money():
     st=f"{now} - Deposited amount: {amount}\n"
     with open("tran.txt",'a') as file:
         file.write(st)
-    # transaction_history(st)
     get_money()
 
 def withdraw_money():
@@ -48,17 +47,8 @@ def withdraw_money():
     st=f"Withdraw amount: {amount}\n"
     with open("tran.txt",'a') as file:
         file.write(st)
-    # transaction_history(st)
     get_money()
 
-# def transaction_history(log):
-#     global history
-#     history+=log
-
-# def show_tran_history():
-#     global history
-#     for log in history:
-#         print(log)
 
 
 def show_passbook():
@@ -87,11 +77,6 @@ while True:
     elif press==3:
         withdraw_money()
 
-    #elif press==4:
-        #transaction_history(log)
-    
-    #elif press==5:
-        #show_tran_history()
 
     elif press==4:
         show_passbook()
